@@ -5,7 +5,7 @@ describe("my first test case", () => {
     it("visit site", () => {
         cy.visit("http://localhost:3001/");
         //cy.contains("swarna").click();
-        cy.contains("swarna").rightclick();
+        cy.contains("swarna1").rightclick();
         cy.url().should("include", "/");
         //cy.pause();
         //cy.debug();
