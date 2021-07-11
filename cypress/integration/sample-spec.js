@@ -5,14 +5,12 @@ describe("my first test case", () => {
     it("visit site", () => {
         cy.visit("http://localhost:3001/");
         //cy.contains("swarna").click();
-        cy.contains("swarna").rightclick();
+        cy.contains("First Name").rightclick();
         cy.url().should("include", "/");
         //cy.pause();
         //cy.debug();
-        cy.get("#root").find(".App");
-        cy.get("#root").find("a.App-link").should("contain", "swarna");
     });
     it("contains", () => {
-        cy.contains("swarna");
+        cy.contains("Last Name");
     });
 });
