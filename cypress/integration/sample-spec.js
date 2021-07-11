@@ -5,7 +5,7 @@ describe("my first test case", () => {
     it("visit site", () => {
         cy.visit("http://localhost:3001/");
         //cy.contains("swarna").click();
-        cy.contains("swarna12").rightclick();
+        cy.contains("swarna").rightclick();
         cy.url().should("include", "/");
         //cy.pause();
         //cy.debug();
@@ -13,6 +13,6 @@ describe("my first test case", () => {
         cy.get("#root").find("a.App-link").should("contain", "swarna");
     });
     it("contains", () => {
-        cy.contains("123");
+        cy.contains("swarna");
     });
 });
