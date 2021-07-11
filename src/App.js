@@ -15,7 +15,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Learn React sdssdd swarna
+                    swarna working on git hooks and cypress
                 </a>
             </header>
         </div>
