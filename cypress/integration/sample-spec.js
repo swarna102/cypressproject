@@ -13,6 +13,6 @@ describe("my first test case", () => {
         cy.get("#root").find("a.App-link").should("contain", "swarna");
     });
     it("contains", () => {
-        cy.contains("swarna");
+        cy.contains("swarna12");
     });
 });
