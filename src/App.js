@@ -15,7 +15,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    swarna working on git hooks and cypress
+                    swarna working on git hooks and cypress project
                 </a>
             </header>
         </div>
